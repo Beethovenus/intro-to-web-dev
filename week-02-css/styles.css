@@ -1,15 +1,38 @@
 /* Element selector that gives every p element a monospace font. */
 p {
   font-family: monospace;
+  font-size: 20px;
+  margin-left:  15px;
+  background-color: lightyellow;
 }
 
 /* Class selector that gives elements with this class a big bold style. */
-.big {
-  font-size: large;
+.largetext {
+  font-size: larger;
   font-weight: bold;
 }
 
-/* ID selector that gives the element with this ID a red style. */
-#boldly {
-  color: red;
+/* ID selector w/ green text and background */
+#greencolor {
+  color: forestgreen;
+  background-color: lightgreen;
+  font-size: larger;
+}
+
+/* ID selector w/ red text and orange background */
+#redcolor {
+  color:  darkred;
+  background-color:  orange;
+}
+
+/* Class selector for header */
+.largertext {
+  font-size: xx-large;
+  background-color: lightgreen;
+}
+
+/* Class selector for border */
+.border {
+  border: thin solid seagreen;
+  margin-left: 10px;
 }
