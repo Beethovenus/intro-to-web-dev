@@ -1,12 +1,83 @@
+body {
+  background-image: url("images/pattern01-wip.png");
+  background-color: #3A5597;
+  font-size: 20px;
+}
+
 nav {
   border: thin solid black;
+  background-color: #FFFF97;
+  display: flex;
+  font-size: 20px;
+  gap: 10px;
 }
 
 div {
   border: thin solid black;
   margin: 25px 0;
+  padding: 10px;
 }
 
-footer {
-  border: thin solid black;
+.container {
+  display: flex;
+  flex-direction: column;
+  background-color: rgba(238, 228, 238, 0.7);
+  rgba
+  gap: 10px;
 }
+
+.header {
+  background-color: rgba(255, 255, 255, 0.9);
+}
+
+.middle {
+  display: flex;
+  gap: 10px;
+  background-color: rgba(255, 255, 255, 0.9);
+  height: 400px;
+}
+
+.footer {
+  display: grid;
+  background-color: rgba(255, 255, 255, 0.9);
+}
+
+.footer-links {
+  display: flex;
+  gap: 30px;
+  border: none;
+  margin-top: -10px;
+  margin-bottom: -10px;
+}
+
+.left-sidebar {
+  background-color: rgba(255, 255, 255, 1.0);
+  flex-grow: 2.0;
+}
+
+.content {
+  flex-grow: 1;
+  background-color: rgba(255, 255, 255, 1.0);
+}
+
+.content-text {
+  margin-top: -10px;
+  font-size: 20px;
+  width: 500px;
+  border: none;
+}
+
+.right-sidebar {
+  flex-grow: 2.0;
+  background-color: rgba(255, 255, 255, 1.0);
+}
+
+/*
+- Website for a business
+
+- At least 1 element w/ "display:grid" containing at least 2 children
+- At least 1 element w/ grid property (other than display: grid)
+- At least 1 element w/ "display:flex" containing at least 2 children
+- At least 1 element w/ flex property (other than "display: flex")
+
+/*
