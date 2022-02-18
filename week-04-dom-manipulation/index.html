@@ -7,11 +7,42 @@
   </head>
   <body>
     <div id="inputs">
-      <div>Give me an adjective: <input id="adjective-one-input" /></div>
+      <div>Give me a noun: <input id="noun-one-input"/></div>
+      <div>Give me an adjective: <input id="adjective-one-input"/></div>
+      <div>Give me a second noun: <input id="noun-two-input"/></div>
+      <div>Give me a third noun: <input id="noun-three-input"/></div>
+      <div>Give me a second adjective: <input id="adjective-two-input"/></div>
+      <div>Give me a third adjective: <input id="adjective-three-input"/></div>
+      <div>Give me a past tense verb: <input id="verb-input"/></div>
       <button onclick="fillOutputs();">Done</button>
     </div>
     <div id="output">
-      The <span id="adjective-one-output"></span> fox jumped over the lazy dog.
+      <p>The <span id="noun-one-output"></span> jumped over the <span id="adjective-one-output"></span> <span id="noun-two-output"></span> and ran into the <span id="adjective-two-output"></span> wall.</p>
+      <p>The <span id="adjective-three-output"></span> smell of a hot fudge <span id="noun-three-output"></span> caused it to go berserk!</p>
+      <p>After this, it wept and <span id="verb-output"></span>.</p>
+
+
     </div>
   </body>
 </html>
+
+
+<!--
+x noun1
+x noun2
+x noun3
+x adj1
+x adj2
+adj3
+verb
+
+The [noun] jumped over the [adjective] [noun2] and ran into the wall.
+After that, the [noun2] decided it wanted a free hot fudge [noun3].
+It tasted really [adjective2], and his appetite was [adjective3].
+The [noun] was really jealous of the [noun2], and so it wept and [past tense verb].
+
+
+<p>After that, the <span id="noun-two-output"></span> decided it wanted a free hot fudge <span id="noun-three-output"></span>.</p>
+      <p>It tasted very <span id="adjective-two-output"></span>, and its appetite was <span id="adjective-three-output"></span>.</p>
+      <p>The <span id="noun-one-output"></span> was very jealous of the <span id="noun-two-output"></span>, and so it wept and <span id="verb-output"></span>.</p>
+>
