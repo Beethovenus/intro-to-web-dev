@@ -1,23 +1,29 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Task List</title>
+    <title>10 Favorite Games</title>
     <link rel="stylesheet" type="text/css" href="styles.css">
     <script src="script.js"></script>
   </head>
   <body onload="loadContent();">
-    <h1>Task List</h1>
+    <h1>10 Favorite Games</h1>
     <div id="table-container"></div>
+
     <hr>
-    <p>Shortest task: <span id="shortest-task"></span></p>
+    <p><b>Oldest game:</b> <span id="oldest-game"></span></b>
+    <p><b>Latest game:</b> <span id="latest-game"></span></b>
+    <p><b>Average year:</b> <span id="average-year"></span></b>
     <hr>
+
     <div>
-      <h1>New Task</h1>
-      Label: <input type="text" id="label-input"/>
+      <h1>Add Game</h1>
+      Game: <input type="text" id="game-input"/>
       <br><br>
-      Time: <input type="number" id="time-input" />
+      Developer: <input type="text" id="dev-input" />
       <br><br>
-      <button onclick="addNewTask();">Add</button>
+      Year: <input type="number" id="year-input" />
+      <br><br>
+      <button onclick="addNewGame();">Add</button>
     </div>
   </body>
 </html>
