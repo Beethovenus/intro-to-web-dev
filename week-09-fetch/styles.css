@@ -1,8 +1,38 @@
+body {
+  background-color: limegreen;
+  padding-left: 100px;
+  padding-right: 100px;
+  padding-top: 40px;
+  padding-bottom: 50px;
+}
+
 #images {
-  width: 500px;
+  width: 900px;
   border: thin solid black;
+  background-color: lightcoral;
 }
 
 #images img {
   width: 100px;
+}
+
+#sections {
+background-color: lightgoldenrodyellow;
+border: thin solid black;
+}
+
+#links {
+  column-count: 5;
+  background-color: lightskyblue;
+  border: thin solid black;
+}
+
+a {
+  color: darkblue;
+}
+
+#external-links {
+  font-size: 15px;
+  background-color: lightseagreen;
+  border: thin solid black;
 }
