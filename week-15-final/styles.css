@@ -1,3 +1,29 @@
-p {
-  font-size: large;
+td {
+  border: thin solid black;
 }
+
+/*
+1.) HTML tags? yes
+
+2.) CSS? yes
+
+3.) JavaScript? yes
+
+4.) ONE of the following
+- Event callbacks -- 
+- DOM manipulation -- 
+- Creating a variable -- 
+- If statements -- 
+- For loops -- 
+
+5.) ONE of the following
+- Flexbox -- 
+- Grid layout -- 
+- Arrays -- yes
+- Objects -- yes
+- Use of JavaScript library -- 
+- Calling the fetch function -- 
+- 100% accessibility score in Lighthouse -- 
+
+
+*/
