@@ -4,26 +4,30 @@
     <title>10 Favorite Games</title>
     <link rel="stylesheet" type="text/css" href="styles.css">
     <script src="script.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.5.14/p5.js"></script>
   </head>
   <body onload="loadContent();">
     <h1>10 Favorite Games</h1>
-    <div id="table-container"></div>
+    <div class="center">
+      <div id="table-container"></div>
+      <hr>
+      <div>
+        <p><b>Oldest game:</b> <span id="oldest-game"></span></b>
+        <p><b>Latest game:</b> <span id="latest-game"></span></b>
+        <p><b>Average year:</b> <span id="average-year"></span></b>
+      </div>
+      <hr>
 
-    <hr>
-    <p><b>Oldest game:</b> <span id="oldest-game"></span></b>
-    <p><b>Latest game:</b> <span id="latest-game"></span></b>
-    <p><b>Average year:</b> <span id="average-year"></span></b>
-    <hr>
-
-    <div>
-      <h1>Add Game</h1>
-      Game: <input type="text" id="game-input"/>
-      <br><br>
-      Developer: <input type="text" id="dev-input" />
-      <br><br>
-      Year: <input type="number" id="year-input" />
-      <br><br>
-      <button onclick="addNewGame();">Add</button>
+      <div>
+        <h2>Add Game</h2>
+        Game: <input type="text" id="game-input"/>
+        <br><br>
+        Developer: <input type="text" id="dev-input" />
+        <br><br>
+        Year: <input type="number" id="year-input" />
+        <br><br>
+        <button onclick="addNewGame();">Add</button>
+      </div>
     </div>
   </body>
 </html>
